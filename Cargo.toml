@@ -4,5 +4,6 @@ version = "0.1.0"
 authors = ["Sam Hatfield <samuel.e.hatfield@gmail.com>"]
 
 [dependencies]
+clap = "2.19.1"
 git2 = "0.6"
 tempdir = "0.3"

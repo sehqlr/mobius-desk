@@ -1,0 +1,15 @@
+name: mobius_desk
+version: "0.1"
+author: sehqlr
+about: CLI client for mobius_desk
+args:
+        - verbose:
+                short: v
+                multiple: true
+                help: Sets the level of verbosity
+subcommands:
+        - init:
+                about: creates a new Mobius Desk project
+                args:
+                        - path:
+                                help: file path to where you want to create the project
